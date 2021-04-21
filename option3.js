@@ -33,7 +33,8 @@ function getIds(ids_to_retrieve){
 
   //parse valid ids
   idList = new Set(idList) // remove duplicates
-  idList =  idList.filter((id)=> {
+  idList = Array.from(idList)
+  idList =  idList.filter((id)=> { // assuming all ids are the same length as example id
     return length(id) === ID_LENGTH
   });
 
