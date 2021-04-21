@@ -1,3 +1,5 @@
+// Angie Ta 2021 for Eluvio SE Intern Coding Challenge
+
 var async = require('async'); // https://www.npmjs.com/package/async
 const ID_LENGTH = 27; // length of example id
 
