@@ -9,7 +9,7 @@ async function loadIds(id){
     var authHeader = btoa(id)
 
     request.open('GET', url+id, true)
-    request.setRequestHeader('Authorization', String(id) );
+    request.setRequestHeader('Authorization', String(authHeader) );
     request.onload = function() {
 
         if(this.readyState === 4 && this.status === 200){// if success
