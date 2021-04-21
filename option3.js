@@ -1,5 +1,5 @@
 var async = require('async'); // https://www.npmjs.com/package/async
-const ID_LENGTH = 27;
+const ID_LENGTH = 27; // length of example id
 
 async function loadIds(id){
     var request = new XMLHttpRequest()
